@@ -3,7 +3,7 @@
  * @Author: 李文华
  * @Date: 2019-06-15 08:54:30
  * @LastEditors: 李文华
- * @LastEditTime: 2019-07-21 10:59:16
+ * @LastEditTime: 2019-07-21 14:59:55
  */
 import React from 'react';
 import { connect } from 'dva';
@@ -197,13 +197,13 @@ class Main extends React.Component {
                   handleEndReched={this.handleEndReched}
                   {...props}
                 />
-                <ListViews
+                {/* <ListViews
                   dataSource={myInitiateDataSource}
                   row={this.renderRow}
                   handleEndReched={this.handleEndReched}
                   {...props}
-                />
-                {/* <Lists {...props} /> */}
+                /> */}
+                <Lists {...props} />
               </Tabs>
             </div>
           )
