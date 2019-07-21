@@ -1,0 +1,30 @@
+.my_drawer {
+  :global(.am-tabs-default-bar-tab) {
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .func_map {
+    .grid_title {
+      display: flex;
+      justify-content: flex-start;
+      padding: 15px 0 4px 20px;
+      font-size: 14px;
+      color: #4a4a4a;
+      &:after {
+        content: '';
+        background: url(../../assets/icon/Rectangle.png) no-repeat center center;
+        background-size: 40px 2px;
+        width: 40px;
+        height: 2px;
+        position: absolute;
+        top: 36px;
+        left: 20px;
+      }
+    }
+  }
+  .message,
+  .setting {
+    height: 100%;
+    background-color: #fff;
+  }
+}

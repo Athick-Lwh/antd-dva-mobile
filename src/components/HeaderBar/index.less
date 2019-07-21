@@ -1,0 +1,45 @@
+:global(.am-tab-bar-bar) {
+  height: 88px;
+
+  :global(.am-tab-bar-tab):last-child {
+    border-left: 2px solid #829fc5;
+
+    &:after {
+      content: '';
+      width: 70px;
+      border-bottom: 2px solid #e8e8e8;
+      position: absolute;
+      top: 78px;
+      right: 12px;
+    }
+  }
+
+  :global(.am-tab-bar-tab .am-tab-bar-tab-title) {
+    font-size: 13px;
+  }
+  .header_bar_quick,
+  .header_bar_reim,
+  .header_bar_appli,
+  .header_bar_all {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+  }
+  .header_bar_quick {
+    background: url(../../assets/jz.svg) no-repeat center center;
+    background-size: 24.8px 30px;
+  }
+  .header_bar_reim {
+    background: url(../../assets/bx.svg) no-repeat center center;
+    background-size: 26.5px 28.5px;
+  }
+  .header_bar_appli {
+    background: url(../../assets/sq.svg) no-repeat center center;
+    background-size: 30px 28.7px;
+  }
+
+  .header_bar_all {
+    background: url(../../assets/all.svg) no-repeat center center;
+    background-size: 26.5px 26.5px;
+  }
+}

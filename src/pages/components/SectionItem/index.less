@@ -1,0 +1,75 @@
+.section_item {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  .section_item_l {
+    display: flex;
+    justify-content: flex-start;
+
+    .item_avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: url('http://tu.maomaogougou.cn/picture/2016/08/9566a30e26c14e8c882fe69a06ade1c6.jpg')
+        no-repeat center center;
+      background-size: 50px 50px;
+      margin-right: 10px;
+    }
+
+    .item_info {
+      width: 192px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .item_info_top {
+        display: flex;
+        align-items: center;
+
+        .info_name {
+          font-size: 14px;
+          font-weight: 700;
+          padding-right: 8px;
+        }
+
+        .info_date {
+          font-size: 12px;
+          color: #686b6d;
+        }
+      }
+
+      .item_info_remark {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #686b6d;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .section_item_r {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .badge {
+      width: 42px;
+      height: 16px;
+
+      :global(.am-badge-text) {
+        border-radius: 3px;
+        background-color: #21b68a;
+        font-size: 10px;
+        padding: 0 6px;
+      }
+    }
+    .money {
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+}
