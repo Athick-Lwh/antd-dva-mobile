@@ -1,3 +1,10 @@
+/*
+ * @Company: 嘉略信息
+ * @Author: 李文华
+ * @Date: 2019-06-15 14:11:39
+ * @LastEditors: 李文华
+ * @LastEditTime: 2019-07-21 15:25:23
+ */
 import { Toast } from 'antd-mobile';
 import { extend } from 'umi-request';
 
@@ -6,6 +13,7 @@ import { extend } from 'umi-request';
  */
 const codeMessage = {
   200: '服务器成功返回请求的数据。',
+  500: '服务器报错',
 };
 
 /**
